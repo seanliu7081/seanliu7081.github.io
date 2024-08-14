@@ -23,21 +23,40 @@ My long-term research vision is to develop automation systems that are self-adap
 ## Selected Publications
 
 <div class="selected-publications">
-    <ul>
-        <li>
-            <h3>Policy Learning for Robotic Manipulation</h3>
-            <p><strong>Imagination Policy: Using Generative Point Cloud Models for Learning Manipulation Policies</strong></p>
-            <p>Authors: Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, Haotian Liu**, Mingxi Jia**, Robert Platt, and Robin Walters (*, ** Equal Contribution)</p>
-            <p><a href="https://arxiv.org/abs/2406.11740">PDF</a> | <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
-        </li>
-        <li>
-            <h3>Deep Learning Optimization for 3D Vision</h3>
-            <p><strong>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</strong></p>
-            <p>Authors: Haotian Liu*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang (* co-first author)</p>
-            <p>Under review, paper upon request</p>
-            <div class="publication-graph">
-              <img src="images/grad_weights.pdf">
-            </div>
-        </li>
-    </ul>
+  <h3>Policy Learning for Robotic Manipulation</h3>
+  
+  <div class="publication">
+    <h4>Imagination Policy: Using Generative Point Cloud Models for Learning Manipulation Policies</h4>
+    <p>Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, Haotian Liu**, Mingxi Jia**, Robert Platt, and Robin Walters (*, ** Equal Contribution)</p>
+    <p>Under review, <a href="#">PDF</a>, <a href="#">Project Page</a></p>
+    <img src="/images/imagination_policy.jpg" alt="Imagination Policy" style="max-width: 200px; float: right; margin-left: 15px;">
+  </div>
+
+  <h3>Deep Learning Optimization for 3D Vision</h3>
+
+  <div class="publication">
+    <h4>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</h4>
+    <p>Haotian Liu*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang (* co-first author)</p>
+    <p>Under review, paper upon request</p>
+    <img src="/images/loss_distillation.jpg" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 15px;">
+  </div>
 </div>
+
+<style>
+  .selected-publications {
+    margin-top: 20px;
+  }
+  .publication {
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  .publication h4 {
+    margin-bottom: 5px;
+  }
+  .publication p {
+    margin: 5px 0;
+  }
+  .publication img {
+    border: 1px solid #ddd;
+  }
+</style>
