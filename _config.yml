@@ -22,8 +22,8 @@ repository               : "seanliu7081/seanliu7081.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  # name             : "Your Sidebar Name"
+  # pronouns         : he/him
   # bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
   employer         : "Red Brick University"
