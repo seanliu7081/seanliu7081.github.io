@@ -31,8 +31,8 @@ My long-term research vision is to develop automation systems that are self-adap
             <p><a href="PDF_LINK">PDF</a> | <a href="PROJECT_PAGE_LINK">Project Page</a></p>
         </li>
         <li>
-<!--             <h3>Deep Learning Optimization for 3D Vision</h3>
-            <p><strong>Set-to-Set Similarity Learning via Nearest Neighbor Matching with Gumbel Prior: A Probability Measure</strong></p>
+            <h3>Deep Learning Optimization for 3D Vision</h3>
+<!--             <p><strong>Set-to-Set Similarity Learning via Nearest Neighbor Matching with Gumbel Prior: A Probability Measure</strong></p>
             <p>Authors: Haotian Liu*, Fangzhou Lin*, Haichong Zhang, Kazunori Yamada, Vijaya B Kolachalama, Venkatesh Saligrama, and Ziming Zhang (* co-first author)</p>
             <p>Under review, paper upon request</p> -->
             <p><strong>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</strong></p>
