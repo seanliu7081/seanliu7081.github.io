@@ -28,7 +28,7 @@ My long-term research vision is to develop automation systems that are self-adap
             <h3>Policy Learning for Robotic Manipulation</h3>
             <p><strong>Imagination Policy: Using Generative Point Cloud Models for Learning Manipulation Policies</strong></p>
             <p>Authors: Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, Haotian Liu**, Mingxi Jia**, Robert Platt, and Robin Walters (*, ** Equal Contribution)</p>
-            <p><a href="PDF_LINK">PDF</a> | <a href="PROJECT_PAGE_LINK">Project Page</a></p>
+            <p><a href="https://arxiv.org/abs/2406.11740">PDF</a> | <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
         </li>
         <li>
             <h3>Deep Learning Optimization for 3D Vision</h3>
