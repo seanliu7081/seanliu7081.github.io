@@ -22,21 +22,6 @@ My long-term research vision is to build automation systems that can be self-ada
 
 # Selected Publications
 
-
-<style>
-
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-    }
-
-    .grid-item {
-        text-align: center;
-    }
-
-</style>
-
 <p><br /></p>
 
 <div class="selected-publications">
