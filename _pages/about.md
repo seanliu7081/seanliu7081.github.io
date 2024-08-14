@@ -21,8 +21,7 @@ I’m a junior-year undergraduate student at Worcester Polytechnic Institute, ma
 My long-term research vision is to build automation systems that can be self-adaptive to new environments based on trustworthy data input from perception and learn motion strategies from logistics reasoning. These systems will assist humans to accomplish challenging tasks in the physical world.
 
 # Selected Publications
-<!doctype html>
-<html lang="en" class="no-js">
+
 
 <style>
 
@@ -56,14 +55,10 @@ My long-term research vision is to build automation systems that can be self-ada
             <p>Under review, paper upon request</p>
         </li>
         <li>
-            <h3>Loss Distillation via Gradient Matching for Point Cloud Completion</h3>
+<!--             <h3>Loss Distillation via Gradient Matching for Point Cloud Completion</h3> -->
             <p><strong>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</strong></p>
             <p>Haotian Liu*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang (* co-first author)</p>
             <p>Under review, paper upon request</p>
         </li>
     </ul>
 </div>
-
-
-
-</html>
