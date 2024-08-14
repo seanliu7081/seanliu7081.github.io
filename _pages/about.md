@@ -38,8 +38,7 @@ My long-term research vision is to build automation systems that can be self-ada
             <p><strong>Set-to-Set Similarity Learning via Nearest Neighbor Matching with Gumbel Prior: A Probability Measure</strong></p>
             <p>Haotian Liu*, Fangzhou Lin*, Haichong Zhang, Kazunori Yamada, Vijaya B Kolachalama, Venkatesh Saligrama, and Ziming Zhang (* co-first author)</p>
             <p>Under review, paper upon request</p>
-        </li>
-        <li>
+          
 <!--             <h3>Loss Distillation via Gradient Matching for Point Cloud Completion</h3> -->
             <p><strong>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</strong></p>
             <p>Haotian Liu*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang (* co-first author)</p>
