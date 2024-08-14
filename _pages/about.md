@@ -19,3 +19,51 @@ I’m a junior-year undergraduate student at Worcester Polytechnic Institute, ma
 # Research Vision
 
 My long-term research vision is to build automation systems that can be self-adaptive to new environments based on trustworthy data input from perception and learn motion strategies from logistics reasoning. These systems will assist humans to accomplish challenging tasks in the physical world.
+
+# Selected Publications
+<!doctype html>
+<html lang="en" class="no-js">
+
+<style>
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .grid-item {
+        text-align: center;
+    }
+
+</style>
+
+<p><br /></p>
+
+<div class="selected-publications">
+<!--     <h2>Selected Publications</h2> -->
+    <ul>
+        <li>
+            <h3>Policy Learning for Robotic Manipulation</h3>
+            <p><strong>Imagination Policy: Using Generative Point Cloud Models for Learning Manipulation Policies</strong></p>
+            <p>Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, Haotian Liu**, Mingxi Jia**, Robert Platt, and Robin Walters (*, ** Equal Contribution)</p>
+            <p><a href="PDF_LINK">PDF</a> | <a href="PROJECT_PAGE_LINK">Project Page</a></p>
+        </li>
+        <li>
+            <h3>Deep Learning Optimization for 3D Vision</h3>
+            <p><strong>Set-to-Set Similarity Learning via Nearest Neighbor Matching with Gumbel Prior: A Probability Measure</strong></p>
+            <p>Haotian Liu*, Fangzhou Lin*, Haichong Zhang, Kazunori Yamada, Vijaya B Kolachalama, Venkatesh Saligrama, and Ziming Zhang (* co-first author)</p>
+            <p>Under review, paper upon request</p>
+        </li>
+        <li>
+            <h3>Loss Distillation via Gradient Matching for Point Cloud Completion</h3>
+            <p><strong>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</strong></p>
+            <p>Haotian Liu*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang (* co-first author)</p>
+            <p>Under review, paper upon request</p>
+        </li>
+    </ul>
+</div>
+
+
+
+</html>
