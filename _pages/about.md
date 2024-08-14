@@ -36,7 +36,7 @@ My long-term research vision is to develop automation systems that are self-adap
             <p>Authors: Haotian Liu*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang (* co-first author)</p>
             <p>Under review, paper upon request</p>
             <div class="publication-graph">
-              <img src="image" alt="Graph showing data related to the publication">
+              <img src="images/grad_weights.pdf">
             </div>
         </li>
     </ul>
