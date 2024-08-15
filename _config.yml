@@ -21,7 +21,7 @@ repository               : "https://github.com/seanliu7081"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_img.jpg"
   # name             : "Your Sidebar Name"
   # pronouns         : he/him
   # bio              : "Short biography for the left-hand sidebar"
