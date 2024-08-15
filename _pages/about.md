@@ -26,7 +26,7 @@ My long-term research vision is to develop automation systems that are self-adap
   <h3>Policy Learning for Robotic Manipulation</h3>
   
   <div class="publication">
-    <h4>Imagination Policy: Using Generative Point Cloud Models for Learning Manipulation Policies</h4>
+    <p>Imagination Policy: Using Generative Point Cloud Models for Learning Manipulation Policies</p>
     <p>Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, <strong>Haotian Liu</strong>**, Mingxi Jia**, Robert Platt, and Robin Walters (*, ** Equal Contribution)</p>
     <p>Under review, <a href="#">PDF</a>, <a href="#">Project Page</a></p>
     <img src="images/imgPolicy.png" alt="Imagination Policy" style="max-width: 200px; float: right; margin-left: 15px;">
@@ -35,7 +35,7 @@ My long-term research vision is to develop automation systems that are self-adap
   <h3>Deep Learning Optimization for 3D Vision</h3>
 
   <div class="publication">
-    <h4>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</h4>
+    <p>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</p>
     <p><strong>Haotian Liu</strong>*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang (* co-first author)</p>
     <p>IEEE/RSJ <a href="https://iros2024-abudhabi.org/">IROS 2024</a> in Abu Dhabi, UAE <strong>Oral Presentation</strong>, <a href="">PDF</a></p>
     <img src="images/lossDistill.png" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 15px;">
