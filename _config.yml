@@ -25,7 +25,7 @@ author:
   # name             : "Your Sidebar Name"
   # pronouns         : he/him
   # bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  location         : "Boston, MA, USA"
   employer         : "Worcester Polytechnic Institute"
   uri              : # URL
   email            : "hliu8@wpi.edu" 
@@ -37,13 +37,13 @@ author:
   # orcid            : "http://orcid.org/yourorcidurl"
   # semantic         : # URL
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : https://www.researchgate.net/profile/Haotian-Liu-33
+  # researchgate     : https://www.researchgate.net/profile/Haotian-Liu-33
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/seanliu7081"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -65,7 +65,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : SeanLiu7081
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
