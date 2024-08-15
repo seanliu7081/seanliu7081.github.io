@@ -24,7 +24,7 @@ My long-term research vision is to develop automation systems that are self-adap
 
 <div class="selected-publications">
 <!--   <h3>Policy Learning for Robotic Manipulation</h3> -->
-- Policy Learning for Robotics Manipulation
+-- Policy Learning for Robotics Manipulation
   
   <div class="publication">
     <p>Imagination Policy: Using Generative Point Cloud Models for Learning Manipulation Policies</p>
