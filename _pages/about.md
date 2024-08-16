@@ -47,7 +47,7 @@ My long-term research vision is to develop automation systems that are self-adap
     <p><strong>Vision-based FDM Printing for Fabricating Airtight Soft Actuators</strong></p>
     <p><i>Yijia Wu*, Zilin Dai*, <strong>Haotian Liu</strong>, Lehong Wang, and Markus P. Nemitz </i> (* co-first author)</p>
     <p>IEEE RoboSoft 2024 at San Diego, CA, USA <strong>Oral Presentation</strong> <a href="https://arxiv.org/abs/2312.01135">PDF</a></p>
-    <img src="images/imgPolicy.png" alt="Imagination Policy" style="max-width: 200px; float: right; margin-left: 15px;">
+    <img src="images/website_pics/roboSoft_2024.png" alt="Vision Printing" style="max-width: 200px; float: right; margin-left: 15px;">
   </div>
   
 </div>
