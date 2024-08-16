@@ -7,11 +7,6 @@ redirect_from:
   - /resume
 ---
 
-<!doctype html>
-<html lang="en" class="no-js">
-
-
-
 <style>
 
     .grid-container {
