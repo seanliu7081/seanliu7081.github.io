@@ -26,12 +26,7 @@ redirect_from:
 
 </style>
 
-
-<p align="justify"> 
-    My research interest is in exploring new approaches for turning design idea into reality.
-    This includes automating the design process with Geometry Processing 
-    and exploring new fabrication methods with Additive Manufacturing.
-</p>
+<h1>Research Projects</h1>
 
 <p><br /></p>
 
