@@ -7,58 +7,286 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<!doctype html>
+<html lang="en" class="no-js">
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+<style>
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+    .grid-item {
+        text-align: center;
+    }
+
+</style>
+
+
+<p align="justify"> 
+    My research interest is in exploring new approaches for turning design idea into reality.
+    This includes automating the design process with Geometry Processing 
+    and exploring new fabrication methods with Additive Manufacturing.
+</p>
+
+<p><br /></p>
+
+<!-- project 1 -->
+<div class="section">
+    <p><img src="../images/fluidic_circuit_cover.png" alt="" width="360" height="240" align="left" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    <div class="content">
+        <h2>Software Tool for Routing Efficiently Advanced Macrofluidics</h2>
+        <ul>
+            <li>
+                Introduce a software based workflow that generates printable fluidic networks automatically.
+            </li>
+            <li>
+                Provide a library of fluidic components to implement any logic circuit.
+            </li>
+            <li>
+                [<a href="../_projects/fluidic_circuits.html">View more</a>]
+                [<a href="https://arxiv.org/abs/2312.01130">Paper</a>] 
+                [<a href="https://youtu.be/Q5BHOogOOLo">Video</a>]
+            </li>
+        </ul>
+    </div>
+    <p><br /> <br /></p>
+</div>
+
+<!-- project 2 -->
+<div class="section">
+    <p><img src="../images/surface_slicer_cover.png" alt="" width="360" height="230" align="left" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    <div class="content">
+        <h2>Surface Slicer for Aersol Jet Additive Manufacturing</h2>
+        <ul>
+            <li>
+                Introduce an approach to designing Intergrated Circuit that is conformal to provided geometry.
+            </li>
+            <li>
+                Implement motion planning for robot arm to print the designed circuit.
+            </li>
+            <li>
+                [<a href="../_projects/surface_slicer.html">View more</a>]
+                [<a href="https://youtu.be/3mFyxT9Hu4E">Video</a>]
+            </li>
+        </ul>
+    </div>
+    <p><br /> <br /></p>
+</div>
+
+
+<!-- project 3 -->
+<div class="section">
+    <p><img src="../images/close_loop_printing_cover_draft.png" alt="" width="360" height="230" align="left" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    <div class="content">
+        <h2>Vision-based Close-loop FDM Printing for Fabricating Airtight Structures</h2>
+
+        <ul>
+            <li>
+                Introduce an system to greatly improve print quality of FDM printer with computer vision.
+            </li>
+                [<a href="https://arxiv.org/abs/2312.01135">Paper</a>] 
+                [<a href="https://youtu.be/6YeycaHmTKA">Video</a>]
+            </li>
+        </ul>
+    </div>
+    <p><br /> <br /></p>
+</div>
+
+
+<!-- project 4 -->
+<div class="section">
+    <p><img src="../images/Wheel_up_cover.gif" alt="" width="360" height="200" align="left" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    <div class="content">
+        <h2>Wheel Up: A Wheelchair Training Simulator for Rehabilitation </h2>
+        <ul>
+            <li>
+                Developed a wheelchair simulator game to provide training for wheelchair users.
+            </li>
+            <li>
+                [<a href="https://ids.wpi.edu/wheel-up/">View more</a>]
+                [<a href="https://users.wpi.edu/~mjchen/attachments/CoG_2023_WheelUp.pdf">Paper</a>] 
+                [<a href="https://youtu.be/MTMOIv_5BZA?si=92_3c0tdg9MI4mnl">Video</a>]
+            </li>
+        </ul>
+    </div>
+    <p><br /> <br /></p>
+</div>
+
+
+<!-- project 5 -->
+<div class="section">
+    <p><img src="../images/compliant_mechanism_cover.jpeg" alt="" width="360" height="230" align="left" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    <div class="content">
+        <h2> Fully 3D Printed Fluidic Logic for Soft Robots Using FDM </h2>
+        <ul>
+            <li>
+                Introduce a pneumatically powered compliant mechanism that are analogous to a CMOS transistor.
+            </li>
+            <li>
+                Demonstrate using this device to control various soft robots.
+            </li>
+            <!-- <li>
+                [<a href="">Paper</a>] 
+                [<a href="">Video</a>]
+            </li> -->
+        </ul>
+    </div>
+    <p><br /> <br /></p>
+</div>
+
+
+<!-- project 6 -->
+<div class="section">
+    <p><img src="../images/bi_stable_val_cover.png" alt="" width="360" height="280" align="left" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    <div class="content">
+        <h2> Design and Fabrication of Soft Pneumatic Circuits </h2>
+        <ul>
+            <li>
+                Investigate the feasibility of using FDM 3D printing as fabrication method of soft circuits.
+            </li>
+            <li>
+                Introduce a fully 3D-printable design of Bi-stable Valve.
+            </li>
+            <li>
+                [<a href="https://arxiv.org/abs/2312.01131">Paper</a>] 
+                [<a href="https://youtu.be/o5NEBR7vro4">Video</a>]
+            </li>
+        </ul>
+    </div>
+    <p><br /> <br /></p>
+</div>
+
+<p><br /> <br /></p>
+
+
+<!-- project 7 -->
+<div class="section">
+    <p><img src="../images/biqu_cover.gif" alt="" width="360" height="240" align="left" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    <div class="content">
+        <h2> Quadruped with Supplementary Limb for Enhanced Mobility </h2>
+        <ul>
+            <li>
+                Researched into quadruped motion planning and developing adaptive planner solving at real time.
+            </li>
+            <li>
+                [<a href="https://users.wpi.edu/~mmaghelih/BiQu.html">View more</a>]
+            </li>
+        </ul>
+    </div>
+    <p><br /> <br /></p>
+</div>
+
+
+
+<!-- project 8 -->
+<div class="section">
+    <p><img src="../images/eeg_cover.png" alt="" width="360" height="240" align="left" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    <div class="content">
+        <h2> Adhessive EEG Device for Inhanced Confort </h2>
+        <ul>
+            <li>
+                Built a prototype of an wearable EEG device that is more compact, comfortable for the patient, and low cost.
+            </li>
+            <li>
+                [<a href="https://eprojects.wpi.edu/system/files/project-files/2022/09/Final%20Report.pdf">View more</a>]
+            </li>
+        </ul>
+    </div>
+    <p><br /> <br /></p>
+</div>
+
+
+<br/>
+<br/>
+<br/>
+
+<h1> Class Projects </h1>
+
+
+<div class="grid-container">
+    <div class="grid-item">
+        <h3>Implementation of Motion Planning Algorithms 
+            <br />
+            [<a href="https://github.com/Lehong-Wang/RBE-550-Repo">Code</a>] 
+        </h3>
+        <p><img src="../images/RRT_info_arm.gif" alt="" width="280" height="280" align="center" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    </div>
+    <div class="grid-item">
+        <h3>Torque Based Generic Serial Arm Solver and Simulator 
+            <br />
+            <!-- [<a href="">Video</a>]  -->
+            [<a href="https://github.com/Lehong-Wang/RBE-501-repo">Code</a>] 
+        </h3>
+        <p><img src="../images/serial_arm_solver.gif" alt="" width="360" height="250" align="center" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    </div>
+    <div class="grid-item">
+        <h3>
+            Lidar Based SLAM Robot
+            <br/>
+            [<a href="">Video</a>] 
+            [<a href="https://github.com/Lehong-Wang/RBE-3002-Repo">Code</a>] 
+        </h3>
+        <p><img src="../images/slam_turtle.png" alt="" width="360" height="280" align="center" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    </div>
+    <div class="grid-item">
+        <h3>
+            Vision Based Robot Arm for Tic-Tac-Toe
+            <br/>
+            [<a href="https://youtu.be/3Ahgt70RB2I">Video</a>] 
+            [<a href="https://github.com/Lehong-Wang/RBE-3001-Repo">Code</a>] 
+        </h3>
+        <p><img src="../images/tic_tac_toe_arm.png" alt="" width="360" height="240" align="center" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    </div>
+    <div class="grid-item">
+        <h3>
+            Little Games with MSP-EXP430
+            <br/>
+            [<a href="https://www.youtube.com/watch?v=WcPwsSLHz0A">Video</a>] 
+            [<a href="https://github.com/Lehong-Wang/ECE-2049-Repo">Code</a>] 
+        </h3>
+        <p><img src="../images/ece_2049.png" alt="" width="360" height="260" align="center" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    </div>
+    <div class="grid-item">
+        <h3>
+            Service Management Software for Birmingham Women's Hospital
+            <br/>
+            [<a href="https://github.com/Lehong-Wang/CS-3733-Project">Code</a>] 
+        </h3>
+        <p><img src="../images/soft_eng.png" alt="" width="360" height="200" align="center" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    </div>
+    <div class="grid-item">
+        <h3>
+            Activation Function Design for Fack Face Detector
+            <br/>
+            [<a href="https://github.com/Lehong-Wang/Fake-Face-Detection">Code</a>] 
+        </h3>
+        <p><img src="../images/real_fake_face.png" alt="" width="360" height="220" align="center" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    </div>
+    <div class="grid-item">
+        <h3>
+            Emotion Classification Mechine Learning Model
+            <br/>
+            [<a href="https://github.com/Lehong-Wang/CS-4343-repo">Code</a>] 
+        </h3>
+        <p><img src="../images/emotion_model.png" alt="" width="360" height="200" align="center" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    </div>
+    <div class="grid-item">
+        <h3>
+            IR Based Mapping Robot
+        </h3>
+        <p><img src="../images/romi_2002.png" alt="" width="360" height="240" align="center" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    </div>
+    <div class="grid-item">
+        <h3>
+            Simi-Auto Plate Delivery Robot
+        </h3>
+        <p><img src="../images/romi_2001.png" alt="" width="360" height="260" align="center" vspace="10" hspace="0" style=" padding: 0px 50px 0px 0px; border: #FFFFFF 2px none;" /></p>
+    </div>
+</div>
+
+</html>
