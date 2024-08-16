@@ -8,7 +8,7 @@ author_profile: true
 
 (* indicates co-first author)
 
-**Imagination Policy: Using Generative Point Cloud Models for Learning Manipulation Policies** *Haojie Huang, Karl Schmeckpeper, Dian Wang, Ondrej Biza, Yaoyao Qian, **Haotian Liu**, Mingxi Jia, Robert Platt, and Robin Walters* (*, ** Equal Contribution)
+**Imagination Policy: Using Generative Point Cloud Models for Learning Manipulation Policies** Under Review [PDF](https://arxiv.org/abs/2406.11740) *Haojie Huang, Karl Schmeckpeper, Dian Wang, Ondrej Biza, Yaoyao Qian, **Haotian Liu**, Mingxi Jia, Robert Platt, and Robin Walters*
 
 **Automated Control of External Ventricular Drain for Neuro-ICU** Digital WPI 2024 E-project-042524-045431, (**Bachelor Thesis**) [PDF](https://digital.wpi.edu/concern/student_works/gm80j077x?locale=en) ***Haotian Liu\***, Yujie Guo\*, Haoran Zhang\*, and Matthew Duncan\**
 
