@@ -37,9 +37,19 @@ My long-term research vision is to develop automation systems that are self-adap
   <div class="publication">
     <p><strong>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</strong></p>
     <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang</i> (* co-first author)</p>
-    <p>IEEE/RSJ <a href="https://iros2024-abudhabi.org/">IROS 2024</a> in Abu Dhabi, UAE <strong>Oral Presentation</strong>, <a href="files/IROS24__LossDistill.pdf">PDF</a></p>
+    <p>IEEE/RSJ <a href="https://iros2024-abudhabi.org/">IROS 2024</a> at Abu Dhabi, UAE <strong>Oral Presentation</strong>, <a href="files/IROS24__LossDistill.pdf">PDF</a></p>
     <img src="images/lossDistill.png" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 15px;">
   </div>
+
+  <p><li>FDM Printing for Soft Robotics</li></p>
+
+  <div class="publication">
+    <p><strong>Vision-based FDM Printing for Fabricating Airtight Soft Actuators</strong></p>
+    <p><i>Yijia Wu*, Zilin Dai*, <strong>Haotian Liu</strong>, Lehong Wang, and Markus P. Nemitz </i> (* co-first author)</p>
+    <p>IEEE RoboSoft 2024 at San Diego, CA, USA <strong>Oral Presentation</strong> <a href="https://arxiv.org/abs/2312.01135">PDF</a></p>
+    <img src="images/imgPolicy.png" alt="Imagination Policy" style="max-width: 200px; float: right; margin-left: 15px;">
+  </div>
+  
 </div>
 
 <style>
