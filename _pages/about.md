@@ -29,7 +29,7 @@ My long-term research vision is to develop automation systems that are self-adap
     <p><strong>Imagination Policy: Using Generative Point Cloud Models for Learning Manipulation Policies</strong></p>
     <p><i>Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, <strong>Haotian Liu</strong>**, Mingxi Jia**, Robert Platt, and Robin Walters</i> (*, ** Equal Contribution)</p>
     <p>Under review, <a href="https://arxiv.org/abs/2406.11740">PDF</a>, <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
-    <img src="images/imgPolicy.png" alt="Imagination Policy" style="max-width: 200px; float: right; margin-left: 15px;">
+    <img src="images/imgPolicy.png" alt="Imagination Policy" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
 
   <p><li>Deep Learning Optimization for 3D Vision</li></p>
@@ -38,7 +38,7 @@ My long-term research vision is to develop automation systems that are self-adap
     <p><strong>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</strong></p>
     <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang</i> (* co-first author)</p>
     <p>IEEE/RSJ <a href="https://iros2024-abudhabi.org/">IROS 2024</a> at Abu Dhabi, UAE <strong>Oral Presentation</strong>, <a href="files/IROS24__LossDistill.pdf">PDF</a></p>
-    <img src="images/lossDistill.png" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 15px;">
+    <img src="images/lossDistill.png" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
   
   <p><li>Healthcare Automation Monitoring System</li></p>
@@ -47,7 +47,7 @@ My long-term research vision is to develop automation systems that are self-adap
     <p><strong>Automated Control of External Ventricular Drain for Neuro-ICU</strong></p>
     <p><i><strong>Haotian Liu</strong>*, Yujie Guo, Haoran Zhang, and Matthew Duncan</i></p>
     <p><strong>Bachelor Thesis</strong>, <a href="https://digital.wpi.edu/concern/student_works/gm80j077x?locale=en">PDF</a>, <a href="https://github.com/seanliu7081/EVD-Linear-Actuator-Control">Code</a></p>
-    <img src="images/EVD_show_pic.JPG" alt="Auto EVD" style="max-width: 200px; float: right; margin-left: 15px;">
+    <img src="images/EVD_show_pic.JPG" alt="Auto EVD" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
 
   <p><li>FDM Printing for Soft Robotics</li></p>
@@ -56,7 +56,7 @@ My long-term research vision is to develop automation systems that are self-adap
     <p><strong>Vision-based FDM Printing for Fabricating Airtight Soft Actuators</strong></p>
     <p><i>Yijia Wu*, Zilin Dai*, <strong>Haotian Liu</strong>, Lehong Wang, and Markus P. Nemitz </i> (* co-first author)</p>
     <p>IEEE RoboSoft 2024 at San Diego, CA, USA <strong>Oral Presentation</strong> <a href="https://arxiv.org/abs/2312.01135">PDF</a></p>
-    <img src="images/website_pics/roboSoft_2024.png" alt="Vision Printing" style="max-width: 200px; float: right; margin-left: 15px;">
+    <img src="images/website_pics/roboSoft_2024.png" alt="Vision Printing" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
   
 </div>
