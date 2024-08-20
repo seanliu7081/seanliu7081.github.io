@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a junior-year undergraduate student at Worcester Polytechnic Institute, majoring in Robotics Engineering with a minor in Mathematics. Currently, I am a research intern at [The Helping Hands Lab](https://www2.ccs.neu.edu/research/helpinghands/) at [Northeastern University](https://www.northeastern.edu/), advised by Professor [Robert Platt](https://www.khoury.northeastern.edu/people/robert-platt/).
+I am a junior-year undergraduate student at Worcester Polytechnic Institute, majoring in Robotics Engineering with a minor in Mathematics. Currently, I am a research intern working on Policy Learning for Robotic Manipulation and TAMP (Task And Motion Planning) at [The Helping Hands Lab](https://www2.ccs.neu.edu/research/helpinghands/) in [Northeastern University](https://www.northeastern.edu/), advised by Professor [Robert Platt](https://www.khoury.northeastern.edu/people/robert-platt/). Besides, I also conducted research on multiple robotic and computer vision topics: Deep Learning Optimization for 3D Vision, FDM Printing for Soft Robotics, and Healthcare Automation Monitoring System. My research works are supervised by Prof. [Ziming Zhang](https://www.wpi.edu/people/faculty/zzhang15) at [VISLab@WPI](https://zhang-vislab.github.io/), Prof. [Markus P. Nemitz](https://engineering.tufts.edu/me/people/faculty/markus-nemitz) at [Nemitz Robotics Group](https://sites.tufts.edu/nemitz/), and Prof. [Christopher Nycz](https://www.linkedin.com/in/christophernycz/) at [AIM Lab](https://aimlab.wpi.edu/). CV: Link.
 
 ## News
 
-- **August 10, 2024:** I have extended my research internship at Northeastern University through November 11, 2025.
+- **August 10, 2024:** I have extended my research internship at Northeastern University until August 31, 2025.
 - **June 30, 2024:** Our paper, "Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance," has been accepted for an **Oral Presentation** at IEEE/RSJ IROS 2024.
 - **May 1, 2024:** This summer, I will join The Helping Hands Lab at Northeastern University as a research intern to work on cutting-edge robotic projects focusing on manipulations and 3D vision. Our projects will collaborate closely with Boston Dynamic AI to tackle critical challenges in robotics.
 - **January 31, 2024:** Our paper, "Vision-based FDM Printing for Fabricating Airtight Soft Actuators," has been accepted for an **Oral Presentation** at IEEE RoboSoft 2024.
@@ -40,12 +40,14 @@ My long-term research vision is to develop automation systems that are self-adap
     <p>IEEE/RSJ <a href="https://iros2024-abudhabi.org/">IROS 2024</a> at Abu Dhabi, UAE <strong>Oral Presentation</strong>, <a href="files/IROS24__LossDistill.pdf">PDF</a></p>
     <img src="images/lossDistill.png" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 15px;">
   </div>
-
+  
+  <p><li>Healthcare Automation Monitoring System</li></p>
+  
   <div class="publication">
     <p><strong>Automated Control of External Ventricular Drain for Neuro-ICU</strong></p>
     <p><i><strong>Haotian Liu</strong>*, Yujie Guo, Haoran Zhang, and Matthew Duncan</i></p>
     <p><strong>Bachelor Thesis</strong>, <a href="https://digital.wpi.edu/concern/student_works/gm80j077x?locale=en">PDF</a>, <a href="https://github.com/seanliu7081/EVD-Linear-Actuator-Control">Code</a></p>
-    <img src="images/EVD_show_pic.JPG" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 15px;">
+    <img src="images/EVD_show_pic.JPG" alt="Auto EVD" style="max-width: 200px; float: right; margin-left: 15px;">
   </div>
 
   <p><li>FDM Printing for Soft Robotics</li></p>
