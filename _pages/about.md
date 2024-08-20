@@ -45,7 +45,7 @@ My long-term research vision is to develop automation systems that are self-adap
   
   <div class="publication">
     <p><strong>Automated Control of External Ventricular Drain for Neuro-ICU</strong></p>
-    <p><i><strong>Haotian Liu</strong>*, Yujie Guo, Haoran Zhang, and Matthew Duncan</i></p>
+    <p><i><strong>Haotian Liu</strong>, Yujie Guo, Haoran Zhang, and Matthew Duncan</i></p>
     <p><strong>Bachelor Thesis</strong>, <a href="https://digital.wpi.edu/concern/student_works/gm80j077x?locale=en">PDF</a>, <a href="https://github.com/seanliu7081/EVD-Linear-Actuator-Control">Code</a></p>
     <img src="images/EVD_show_pic.JPG" alt="Auto EVD" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
