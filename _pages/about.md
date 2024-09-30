@@ -26,6 +26,13 @@ My long-term research vision is to develop automation systems that are self-adap
   <p><li>Policy Learning for Robotic Manipulation</li></p>
 
   <div class="publication">
+    <p><strong>MATCH POLICY: A Simple Pipeline from Point Cloud Registration to Manipulation Policies</strong></p>
+    <p><i>Haojie Huang, <strong>Haotian Liu</strong>, Dian Wang, Robin Walters*, and Robert Platt*</i> (* Equal Advising)</p>
+    <p>CoRL 2024, <a href="https://www.arxiv.org/abs/2409.15517">PDF</a>, <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
+    <img src="images/imgPolicy.png" alt="Imagination Policy" style="max-width: 200px; float: right; margin-left: 20px;">
+  </div>
+  
+  <div class="publication">
     <p><strong>Imagination Policy: Using Generative Point Cloud Models for Learning Manipulation Policies</strong></p>
     <p><i>Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, <strong>Haotian Liu</strong>**, Mingxi Jia**, Robert Platt, and Robin Walters</i> (*, ** Equal Contribution)</p>
     <p>CoRL 2024, <a href="https://arxiv.org/abs/2406.11740">PDF</a>, <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
