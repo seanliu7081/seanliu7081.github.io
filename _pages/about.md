@@ -29,7 +29,7 @@ My long-term research vision is to develop automation systems that are self-adap
     <p><strong>MATCH POLICY: A Simple Pipeline from Point Cloud Registration to Manipulation Policies</strong></p>
     <p><i>Haojie Huang, <strong>Haotian Liu</strong>, Dian Wang, Robin Walters*, and Robert Platt*</i> (* Equal Advising)</p>
     <p>Under Review, <a href="https://www.arxiv.org/abs/2409.15517">PDF</a>, <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
-    <img src="images/imgPolicy.png" alt="Imagination Policy" style="max-width: 200px; float: right; margin-left: 20px;">
+    <img src="images/match_policy.png" alt="Match Policy" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
   
   <div class="publication">
