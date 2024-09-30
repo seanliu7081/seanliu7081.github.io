@@ -8,6 +8,8 @@ author_profile: true
 
 (* indicates co-first author)
 
+**MATCH POLICY: A Simple Pipeline from Point Cloud Registration to Manipulation Policies** Under Review [PDF](https://www.arxiv.org/abs/2409.15517) *Haojie Huang, **Haotian Liu**, Dian Wang, Robin Walters\*, and Robert Platt\**
+
 **Enhancing boundary detection of radiofrequency ablation lesions through photoacoustic mapping** Scientific Reports volume 14, Publisher: Nature, Article number: 19370 (2024) [PDF](https://www.nature.com/articles/s41598-024-68046-x) *Shang Gao, **Haotian Liu**, Allison Post, Lukas Jaworski, Drew Bernard, Mathews John, Elizabeth Cosgriff‑Hernandez, Mehdi Razavi, and Haichong K. Zhang*
 
 **Imagination Policy: Using Generative Point Cloud Models for Learning Manipulation Policies** Under Review [PDF](https://arxiv.org/abs/2406.11740) *Haojie Huang, Karl Schmeckpeper, Dian Wang, Ondrej Biza, Yaoyao Qian, **Haotian Liu**, Mingxi Jia, Robert Platt, and Robin Walters*
