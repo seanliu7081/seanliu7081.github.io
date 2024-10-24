@@ -11,7 +11,7 @@ I am a junior-year undergraduate student at Worcester Polytechnic Institute, maj
 
 ## News
 
-- **August 10, 2024:** I have extended my research internship at Northeastern University until August 31, 2025.
+- **August 10, 2024:** I have extended my research internship in The Helping Hands Lab at Northeastern University until August 31, 2025.
 - **June 30, 2024:** Our paper, "Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance," has been accepted for an **Oral Presentation** at IEEE/RSJ IROS 2024.
 - **May 1, 2024:** This summer, I will join The Helping Hands Lab at Northeastern University as a research intern to work on cutting-edge robotic projects focusing on manipulations and 3D vision. Our projects will collaborate closely with Boston Dynamic AI to tackle critical challenges in robotics.
 - **January 31, 2024:** Our paper, "Vision-based FDM Printing for Fabricating Airtight Soft Actuators," has been accepted for an **Oral Presentation** at IEEE RoboSoft 2024.
