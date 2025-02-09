@@ -28,14 +28,14 @@ My long-term research vision is to develop automation systems that are self-adap
   <div class="publication">
     <p><strong>MATCH POLICY: A Simple Pipeline from Point Cloud Registration to Manipulation Policies</strong></p>
     <p><i>Haojie Huang, <strong>Haotian Liu</strong>, Dian Wang, Robin Walters*, and Robert Platt*</i> (* Equal Advising)</p>
-    <p>Under Review, <a href="https://www.arxiv.org/abs/2409.15517">PDF</a>, <a href="https://haojhuang.github.io/match_page/">Project Page</a></p>
+    <p>IEEE International Conference on Robotics and Automation <a href="https://2025.ieee-icra.org/">ICRA 2025</a>, <a href="https://www.arxiv.org/abs/2409.15517">PDF</a>, <a href="https://haojhuang.github.io/match_page/">Project Page</a></p>
     <img src="images/match_policy.png" alt="Match Policy" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
   
   <div class="publication">
     <p><strong>IMAGINATION POLICY: Using Generative Point Cloud Models for Learning Manipulation Policies</strong></p>
     <p><i>Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, <strong>Haotian Liu</strong>**, Mingxi Jia**, Robert Platt, and Robin Walters</i> (*, ** Equal Contribution)</p>
-    <p><a href="https://www.corl.org/">CoRL 2024</a> at Munich, Germany <a href="https://arxiv.org/abs/2406.11740">PDF</a>, <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
+    <p>Conference on Robot Learning <a href="https://www.corl.org/">CoRL 2024</a> at Munich, Germany <a href="https://arxiv.org/abs/2406.11740">PDF</a>, <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
     <img src="images/imgPolicy.png" alt="Imagination Policy" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
 
@@ -44,14 +44,14 @@ My long-term research vision is to develop automation systems that are self-adap
    <div class="publication">
     <p><strong>GPS: A Probabilistic Distributional Similarity with Gumbel Priors for Set-to-Set Matching</strong></p>
     <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Ziming Zhang*, Jose Morales, Haichong Zhang, Kazunori Yamada, Vijaya B Kolachalama, Venkatesh Saligrama</i> (* co-first author)</p>
-    <p>International Conference on Learning Representations <a href="https://iclr.cc/">ICLR</a> at Singapore <a href="https://openreview.net/pdf?id=U0SijGsCHJ">PDF</a>, Code Coming Soon</p>
+    <p>International Conference on Learning Representations <a href="https://iclr.cc/">ICLR 2025</a> at Singapore, <a href="https://openreview.net/pdf?id=U0SijGsCHJ">PDF</a>, Code Coming Soon</p>
     <img src="images/lossDistill.png" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
 
   <div class="publication">
     <p><strong>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</strong></p>
     <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang</i> (* co-first author)</p>
-    <p>IEEE/RSJ <a href="https://iros2024-abudhabi.org/">IROS 2024</a> at Abu Dhabi, UAE <strong>Oral Presentation</strong>, <a href="https://arxiv.org/abs/2409.06171">PDF</a>, <a href="https://github.com/seanliu7081/LossDistillationWeightedCD_IROS24.git">Code</a>, <a href="https://drive.google.com/file/d/1BoKFYu1weEQomJB_u7ATCbDfiqRkEywd/view?usp=sharing">PPT</a></p>
+    <p>IEEE/RSJ International Conference on Intelligent Robots and Systems <a href="https://iros2024-abudhabi.org/">IROS 2024</a> at Abu Dhabi UAE, <strong>Oral Presentation</strong>, <a href="https://arxiv.org/abs/2409.06171">PDF</a>, <a href="https://github.com/seanliu7081/LossDistillationWeightedCD_IROS24.git">Code</a>, <a href="https://drive.google.com/file/d/1BoKFYu1weEQomJB_u7ATCbDfiqRkEywd/view?usp=sharing">PPT</a></p>
     <img src="images/lossDistill.png" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
   
