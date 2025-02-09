@@ -41,6 +41,13 @@ My long-term research vision is to develop automation systems that are self-adap
 
   <p><li>Deep Learning Optimization for 3D Vision</li></p>
 
+   <div class="publication">
+    <p><strong>GPS: A Probabilistic Distributional Similarity with Gumbel Priors for Set-to-Set Matching</strong></p>
+    <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Ziming Zhang*, Jose Morales, Haichong Zhang, Kazunori Yamada, Vijaya B Kolachalama, Venkatesh Saligrama</i> (* co-first author)</p>
+    <p>International Conference on Learning Representations <a href="https://iclr.cc/">ICLR</a> at Singapore <a href="https://openreview.net/pdf?id=U0SijGsCHJ">PDF</a>, Code Coming Soon</p>
+    <img src="images/lossDistill.png" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 20px;">
+  </div>
+
   <div class="publication">
     <p><strong>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</strong></p>
     <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang</i> (* co-first author)</p>
