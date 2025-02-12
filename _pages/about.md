@@ -11,6 +11,7 @@ I am a senior-year undergraduate at Worcester Polytechnic Institute, majoring in
 
 ## News
 
+- **February 7, 2025:** I was admitted to Northeastern University Khoury College of Computer Science as a PhD student.
 - **August 10, 2024:** I have extended my research internship in The Helping Hands Lab at Northeastern University until August 31, 2025.
 - **June 30, 2024:** Our paper, "Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance," has been accepted for an **Oral Presentation** at IEEE/RSJ IROS 2024.
 - **May 1, 2024:** This summer, I will join The Helping Hands Lab at Northeastern University as a research intern to work on cutting-edge robotic projects focusing on manipulations and 3D vision. Our projects will collaborate closely with Boston Dynamic AI to tackle critical challenges in robotics.
