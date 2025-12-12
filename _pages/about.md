@@ -42,7 +42,7 @@ My long-term research vision is to develop automation systems that are self-adap
    <div class="publication">
     <p><strong>GPS: A Probabilistic Distributional Similarity with Gumbel Priors for Set-to-Set Matching</strong></p>
     <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Ziming Zhang*, Jose Morales, Haichong Zhang, Kazunori Yamada, Vijaya B Kolachalama, Venkatesh Saligrama</i> (* co-first author)</p>
-    <p>International Conference on Learning Representations <a href="https://iclr.cc/">ICLR 2025</a> at Singapore, <a href="https://openreview.net/pdf?id=U0SijGsCHJ">PDF</a>, Code Coming Soon</p>
+    <p>International Conference on Learning Representations <a href="https://iclr.cc/">ICLR 2025</a> at Singapore, <a href="https://openreview.net/pdf?id=U0SijGsCHJ">PDF</a>, <a href="https://github.com/Zhang-VISLab/ICLR2025-GPS.git">Code</a></p>
     <img src="images/gps.png" alt="GPS" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
 
