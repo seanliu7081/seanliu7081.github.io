@@ -11,7 +11,6 @@ I am a research intern working on Robotic Policy Learning at [The Helping Hands 
 
 ## News
 
-- **February 7, 2025:** I was admitted to Northeastern University Khoury College of Computer Science as a PhD student.
 - **June 30, 2024:** Our paper, "Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance," has been accepted for an **Oral Presentation** at IEEE/RSJ IROS 2024.
 - **January 31, 2024:** Our paper, "Vision-based FDM Printing for Fabricating Airtight Soft Actuators," has been accepted for an **Oral Presentation** at IEEE RoboSoft 2024.
 
