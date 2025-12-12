@@ -75,7 +75,7 @@ My long-term research vision is to develop automation systems that are self-adap
 </div>
 
 ## Services
-Reviewer of: NeurIPS 2024, ICLR 2025, AISTATS 2025, ICML 2025
+Reviewer of: NeurIPS, ICLR, AISTATS, ICML
 
 <style>
   .selected-publications {
