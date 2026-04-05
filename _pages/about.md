@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am working on Robotic Policy Learning and Geometric Learning at [The Helping Hands Lab](https://www2.ccs.neu.edu/research/helpinghands/) in [Northeastern University](https://www.northeastern.edu/), advised by Professor [Robert Platt](https://www.khoury.northeastern.edu/people/robert-platt/) and PhD Candidate [Haojie Huang](https://haojhuang.github.io/). Previously, I conducted research on multiple robotic and computer vision topics: Deep Learning Optimization for 3D Vision, FDM Printing for Soft Robotics, and Healthcare Automated Monitoring System. My past research works are supervised by Prof. [Ziming Zhang](https://www.wpi.edu/people/faculty/zzhang15) at [VISLab@WPI](https://zhang-vislab.github.io/), Prof. [Markus P. Nemitz](https://engineering.tufts.edu/me/people/faculty/markus-nemitz) at [Nemitz Robotics Group](https://sites.tufts.edu/nemitz/), and Prof. [Christopher Nycz](https://www.linkedin.com/in/christophernycz/) at [AIM Lab](https://aimlab.wpi.edu/). CV: [Link](../files/Haotian_Liu_CV_25_SPr.pdf). SoP: [Link](../files/Haotian_Liu_SoP.pdf) Contact: seanliu0272 [At] gmail [Dot] com
+I am working on Robot Policy Learning and Geometric Learning at [The Helping Hands Lab](https://www2.ccs.neu.edu/research/helpinghands/) in [Northeastern University](https://www.northeastern.edu/), advised by Professor [Robert Platt](https://www.khoury.northeastern.edu/people/robert-platt/) and PhD Candidate [Haojie Huang](https://haojhuang.github.io/). Previously, I conducted research on multiple robotic and computer vision topics: Deep Learning Optimization for 3D Vision, FDM Printing for Soft Robotics, and Healthcare Automated Monitoring System. My past research works are supervised by Prof. [Ziming Zhang](https://www.wpi.edu/people/faculty/zzhang15) at [VISLab@WPI](https://zhang-vislab.github.io/), Prof. [Markus P. Nemitz](https://engineering.tufts.edu/me/people/faculty/markus-nemitz) at [Nemitz Robotics Group](https://sites.tufts.edu/nemitz/), and Prof. [Christopher Nycz](https://www.linkedin.com/in/christophernycz/) at [AIM Lab](https://aimlab.wpi.edu/). CV: [Link](../files/Haotian_Liu_CV_25_SPr.pdf). Contact: seanliu0272 [At] gmail [Dot] com
 
 ## News
 
@@ -16,7 +16,7 @@ I am working on Robotic Policy Learning and Geometric Learning at [The Helping H
 
 ## Research Vision
 
-My long-term research vision is to develop automation systems that are self-adaptive to new environments based on trustworthy data input from perception and learning motion strategies from logistics reasoning. These systems will assist humans in accomplishing challenging tasks in the physical world.
+My long-term research goal is to build automation systems that can adapt reliably to new environments through trustworthy perception and learned motion strategies grounded in structured reasoning. These systems will assist humans in accomplishing challenging tasks in the physical world.
 
 ## Selected Publications
 
