@@ -53,24 +53,6 @@ My long-term research goal is to build automation systems that can adapt reliabl
     <img src="images/lossDistill.png" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
   
-  <p><li>Healthcare Automation Monitoring System</li></p>
-  
-  <div class="publication">
-    <p><strong>Automated Control of External Ventricular Drain for Neuro-ICU</strong></p>
-    <p><i><strong>Haotian Liu</strong>, Yujie Guo, Haoran Zhang, and Matthew Duncan</i></p>
-    <p><strong>Bachelor Thesis</strong>, <a href="https://digital.wpi.edu/concern/student_works/gm80j077x?locale=en">PDF</a>, <a href="https://github.com/seanliu7081/EVD-Linear-Actuator-Control">Code</a></p>
-    <img src="images/EVD_show_pic.JPG" alt="Auto EVD" style="max-width: 200px; float: right; margin-left: 20px;">
-  </div>
-
-  <p><li>FDM Printing for Soft Robotics</li></p>
-
-  <div class="publication">
-    <p><strong>Vision-based FDM Printing for Fabricating Airtight Soft Actuators</strong></p>
-    <p><i>Yijia Wu*, Zilin Dai*, <strong>Haotian Liu</strong>, Lehong Wang, and Markus P. Nemitz </i> (* co-first author)</p>
-    <p>IEEE-RAS International Conference on Soft Robotics <a href="https://robosoft2024.org/">RoboSoft 2024</a> at San Diego USA, <strong>Oral Presentation</strong> <a href="https://arxiv.org/abs/2312.01135">PDF</a></p>
-    <img src="images/website_pics/roboSoft_2024.png" alt="Vision Printing" style="max-width: 200px; float: right; margin-left: 20px;">
-  </div>
-  
 </div>
 
 ## Services
