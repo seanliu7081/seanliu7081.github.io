@@ -25,7 +25,8 @@ My long-term research goal is to build automation systems that can adapt reliabl
   <div class="publication">
     <p><strong>Pix2Act: Image-Space Manipulation Policies with Equivariant Augmentation</strong></p>
     <p><i>Haojie Huang, Linfeng Zhao, <strong>Haotian Liu</strong>, Zhang Ye, Si-Yuan Huang, Mingxi Jia, Boce Hu, Fangzhou Lin, Yu Qi, Dian Wang, Robin Walters*, Robert Platt*</i> (* Equal Advising)</p>
-    <a href="https://arxiv.org/abs/2607.11167">Paper</a>, <a href="https://haojhuang.github.io/pix2act_page/">Project Page</a>
+    <p>In Submission, <a href="https://arxiv.org/abs/2607.11167">Paper</a>, <a href="https://haojhuang.github.io/pix2act_page/">Project Page</a></p>
+    <img src="images/pix2act.png" alt="Pix2Act" style="max-width: 200px; float: right; margin-left: 20px;">
   </div>
 
   <div class="publication">
