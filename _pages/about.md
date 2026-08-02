@@ -21,43 +21,64 @@ My long-term research goal is to build automation systems that can adapt reliabl
 ## Selected Publications
 
 <div class="selected-publications">
-  <p><li>Policy Learning for Robotic Manipulation</li></p>
-  <div class="publication">
-    <p><strong>Pix2Act: Image-Space Manipulation Policies with Equivariant Augmentation</strong></p>
-    <p><i>Haojie Huang, Linfeng Zhao, <strong>Haotian Liu</strong>, Zhang Ye, Si-Yuan Huang, Mingxi Jia, Boce Hu, Fangzhou Lin, Yu Qi, Dian Wang, Robin Walters*, Robert Platt*</i> (* Equal Advising)</p>
-    <p>In Submission, <a href="https://arxiv.org/abs/2607.11167">Paper</a>, <a href="https://haojhuang.github.io/pix2act_page/">Project Page</a></p>
-    <img src="images/pix2act.png" alt="Pix2Act" style="max-width: 200px; float: right; margin-left: 20px;">
-  </div>
+  <h3 class="publication-category">Policy Learning for Robotic Manipulation</h3>
 
-  <div class="publication">
-    <p><strong>MATCH POLICY: A Simple Pipeline from Point Cloud Registration to Manipulation Policies</strong></p>
-    <p><i>Haojie Huang, <strong>Haotian Liu</strong>, Dian Wang, Robin Walters*, and Robert Platt*</i> (* Equal Advising)</p>
-    <p>IEEE International Conference on Robotics and Automation <a href="https://2025.ieee-icra.org/">ICRA 2025</a> at Atlanta USA, <a href="https://www.arxiv.org/abs/2409.15517">Paper</a>, <a href="https://haojhuang.github.io/match_page/">Project Page</a></p>
-    <img src="images/match_policy.png" alt="Match Policy" style="max-width: 200px; float: right; margin-left: 20px;">
-  </div>
-  
-  <div class="publication">
-    <p><strong>IMAGINATION POLICY: Using Generative Point Cloud Models for Learning Manipulation Policies</strong></p>
-    <p><i>Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, <strong>Haotian Liu</strong>**, Mingxi Jia**, Robert Platt, and Robin Walters</i> (*, ** Equal Contribution)</p>
-    <p>Conference on Robot Learning <a href="https://www.corl.org/">CoRL 2024</a> at Munich, Germany, <a href="https://arxiv.org/abs/2406.11740">Paper</a>, <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
-    <img src="images/imgPolicy.png" alt="Imagination Policy" style="max-width: 200px; float: right; margin-left: 20px;">
-  </div>
+  <article class="publication">
+    <div class="publication__info">
+      <h4 class="publication__title">Pix2Act: Image-Space Manipulation Policies with Equivariant Augmentation</h4>
+      <p><i>Haojie Huang, Linfeng Zhao, <strong>Haotian Liu</strong>, Zhang Ye, Si-Yuan Huang, Mingxi Jia, Boce Hu, Fangzhou Lin, Yu Qi, Dian Wang, Robin Walters*, Robert Platt*</i> (* Equal Advising)</p>
+      <p>In Submission, <a href="https://arxiv.org/abs/2607.11167">Paper</a>, <a href="https://haojhuang.github.io/pix2act_page/">Project Page</a></p>
+    </div>
+    <figure class="publication__media">
+      <img src="{{ '/images/pix2act.png' | relative_url }}" alt="Dual-camera robot-gripper pipeline showing equivariant image augmentations yielding the same triangulated 3D keypoint trajectory" width="2262" height="778" loading="lazy" decoding="async">
+    </figure>
+  </article>
 
-  <p><li>Deep Learning Optimization for 3D Vision</li></p>
+  <article class="publication">
+    <div class="publication__info">
+      <h4 class="publication__title">MATCH POLICY: A Simple Pipeline from Point Cloud Registration to Manipulation Policies</h4>
+      <p><i>Haojie Huang, <strong>Haotian Liu</strong>, Dian Wang, Robin Walters*, and Robert Platt*</i> (* Equal Advising)</p>
+      <p>IEEE International Conference on Robotics and Automation <a href="https://2025.ieee-icra.org/">ICRA 2025</a> at Atlanta USA, <a href="https://www.arxiv.org/abs/2409.15517">Paper</a>, <a href="https://haojhuang.github.io/match_page/">Project Page</a></p>
+    </div>
+    <figure class="publication__media">
+      <img src="{{ '/images/match_policy.png' | relative_url }}" alt="Point-cloud registration aligns demonstrated and observed objects to produce a placement action" width="632" height="303" loading="lazy" decoding="async">
+    </figure>
+  </article>
 
-   <div class="publication">
-    <p><strong>GPS: A Probabilistic Distributional Similarity with Gumbel Priors for Set-to-Set Matching</strong></p>
-    <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Ziming Zhang*, Jose Morales, Haichong Zhang, Kazunori Yamada, Vijaya B Kolachalama, Venkatesh Saligrama</i> (* co-first author)</p>
-    <p>International Conference on Learning Representations <a href="https://iclr.cc/">ICLR 2025</a> at Singapore, <a href="https://openreview.net/pdf?id=U0SijGsCHJ">Paper</a>, <a href="https://github.com/Zhang-VISLab/ICLR2025-GPS.git">Code</a></p>
-    <img src="images/gps.png" alt="GPS" style="max-width: 200px; float: right; margin-left: 20px;">
-  </div>
+  <article class="publication">
+    <div class="publication__info">
+      <h4 class="publication__title">IMAGINATION POLICY: Using Generative Point Cloud Models for Learning Manipulation Policies</h4>
+      <p><i>Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, <strong>Haotian Liu</strong>**, Mingxi Jia**, Robert Platt, and Robin Walters</i> (*, ** Equal Contribution)</p>
+      <p>Conference on Robot Learning <a href="https://www.corl.org/">CoRL 2024</a> at Munich, Germany, <a href="https://arxiv.org/abs/2406.11740">Paper</a>, <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
+    </div>
+    <figure class="publication__media">
+      <img src="{{ '/images/imgPolicy.png' | relative_url }}" alt="Generated point cloud of a robot gripper approaching a red flower by its stem" width="902" height="712" loading="lazy" decoding="async">
+    </figure>
+  </article>
 
-  <div class="publication">
-    <p><strong>Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</strong></p>
-    <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang</i> (* co-first author)</p>
-    <p>IEEE/RSJ International Conference on Intelligent Robots and Systems <a href="https://iros2024-abudhabi.org/">IROS 2024</a> at Abu Dhabi UAE, <strong>Oral Presentation</strong>, <a href="https://arxiv.org/abs/2409.06171">Paper</a>, <a href="https://github.com/seanliu7081/LossDistillationWeightedCD_IROS24.git">Code</a>, <a href="https://drive.google.com/file/d/1BoKFYu1weEQomJB_u7ATCbDfiqRkEywd/view?usp=sharing">Presentation</a></p>
-    <img src="images/lossDistill.png" alt="Loss Distillation" style="max-width: 200px; float: right; margin-left: 20px;">
-  </div>
+  <h3 class="publication-category">Deep Learning Optimization for 3D Vision</h3>
+
+  <article class="publication">
+    <div class="publication__info">
+      <h4 class="publication__title">GPS: A Probabilistic Distributional Similarity with Gumbel Priors for Set-to-Set Matching</h4>
+      <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Ziming Zhang*, Jose Morales, Haichong Zhang, Kazunori Yamada, Vijaya B Kolachalama, Venkatesh Saligrama</i> (* co-first author)</p>
+      <p>International Conference on Learning Representations <a href="https://iclr.cc/">ICLR 2025</a> at Singapore, <a href="https://openreview.net/pdf?id=U0SijGsCHJ">Paper</a>, <a href="https://github.com/Zhang-VISLab/ICLR2025-GPS.git">Code</a></p>
+    </div>
+    <figure class="publication__media">
+      <img src="{{ '/images/gps.png' | relative_url }}" alt="Nearest-neighbor example alongside fitted Gumbel probability distributions over negative log distance" width="690" height="268" loading="lazy" decoding="async">
+    </figure>
+  </article>
+
+  <article class="publication">
+    <div class="publication__info">
+      <h4 class="publication__title">Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</h4>
+      <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang</i> (* co-first author)</p>
+      <p>IEEE/RSJ International Conference on Intelligent Robots and Systems <a href="https://iros2024-abudhabi.org/">IROS 2024</a> at Abu Dhabi UAE, <strong>Oral Presentation</strong>, <a href="https://arxiv.org/abs/2409.06171">Paper</a>, <a href="https://github.com/seanliu7081/LossDistillationWeightedCD_IROS24.git">Code</a>, <a href="https://drive.google.com/file/d/1BoKFYu1weEQomJB_u7ATCbDfiqRkEywd/view?usp=sharing">Presentation</a></p>
+    </div>
+    <figure class="publication__media">
+      <img src="{{ '/images/lossDistill.png' | relative_url }}" alt="Comparison of scaled gradient-weight curves versus Euclidean distance for HyperCD and reference distributions" width="398" height="323" loading="lazy" decoding="async">
+    </figure>
+  </article>
   
 </div>
 
@@ -66,19 +87,59 @@ Reviewer of: NeurIPS, ICLR, AISTATS, ICML
 
 <style>
   .selected-publications {
-    margin-top: 20px;
+    margin-top: 1.5rem;
+  }
+  .publication-category {
+    margin: 2.25rem 0 0;
+    padding-bottom: 0.55rem;
+    border-bottom: 2px solid #e6e6e6;
+    font-size: 1.05em;
+    line-height: 1.4;
   }
   .publication {
-    margin-bottom: 30px;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 40%);
+    gap: clamp(1.25rem, 3vw, 2.25rem);
+    align-items: center;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e6e6e6;
   }
-  .publication h4 {
-    margin-bottom: 5px;
+  .publication__info {
+    min-width: 0;
   }
   .publication p {
-    margin: 5px 0;
+    margin: 0.45rem 0;
+  }
+  .publication__title {
+    margin: 0 0 0.45rem;
+    font-size: 1.03em;
+    line-height: 1.4;
+  }
+  .publication__media {
+    width: 100%;
+    margin: 0;
+    justify-self: end;
   }
   .publication img {
-    border: 1px solid #ddd;
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin: 0;
+    float: none;
+    border: 1px solid #dedede;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  }
+  @media (max-width: 760px) {
+    .publication {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .publication__media {
+      max-width: 36rem;
+      justify-self: center;
+    }
   }
 </style>
