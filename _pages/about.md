@@ -83,7 +83,7 @@ My long-term research goal is to build automation systems that can adapt reliabl
 </div>
 
 ## Services
-Reviewer of: NeurIPS, ICLR, AISTATS, ICML
+Reviewer of: NeurIPS, ICLR, ICML, CoRL
 
 <style>
   .selected-publications {
