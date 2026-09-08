@@ -34,7 +34,7 @@ My long-term research goal is to build automation systems that can adapt reliabl
     </figure>
   </article>
 
-  <article class="publication">
+  <!-- <article class="publication">
     <div class="publication__info">
       <h4 class="publication__title">MATCH POLICY: A Simple Pipeline from Point Cloud Registration to Manipulation Policies</h4>
       <p><i>Haojie Huang, <strong>Haotian Liu</strong>, Dian Wang, Robin Walters*, and Robert Platt*</i> (* Equal Advising)</p>
@@ -54,7 +54,7 @@ My long-term research goal is to build automation systems that can adapt reliabl
     <figure class="publication__media">
       <img src="{{ '/images/imgPolicy.png' | relative_url }}" alt="Generated point cloud of a robot gripper approaching a red flower by its stem" width="902" height="712" loading="lazy" decoding="async">
     </figure>
-  </article>
+  </article> -->
 
   <h3 class="publication-category">Deep Learning Optimization for 3D Vision</h3>
 
