@@ -158,6 +158,14 @@ Reviewer of: NeurIPS, ICLR, ICML, CoRL
     background: #fff;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
   }
+  @media (min-width: 1024px) {
+    .selected-publications {
+      width: calc(100% + min(14vw, 200px));
+    }
+    .publication {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 65%);
+    }
+  }
   @media (max-width: 760px) {
     .publication {
       grid-template-columns: 1fr;
