@@ -142,7 +142,6 @@ Reviewer of: NeurIPS, ICLR, ICML, CoRL
   }
   .publication__title {
     grid-area: title;
-    max-width: 620px;
     margin: 0;
     font-size: 1.03em;
     line-height: 1.4;
@@ -165,9 +164,9 @@ Reviewer of: NeurIPS, ICLR, ICML, CoRL
     background: #fff;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 925px) {
     .selected-publications {
-      width: calc(100% + min(14vw, 200px));
+      width: calc(100% + min(16vw, 200px));
     }
     .publication {
       grid-template-columns: minmax(0, 1fr) minmax(0, 65%);
@@ -182,6 +181,16 @@ Reviewer of: NeurIPS, ICLR, ICML, CoRL
     .publication__media {
       max-width: 36rem;
       justify-self: center;
+    }
+  }
+  @media (min-width: 761px) and (max-width: 924px) {
+    .publication__title {
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 925px) and (max-width: 1279px) {
+    .publication__title {
+      font-size: 15px;
     }
   }
   @media (min-width: 761px) {
