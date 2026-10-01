@@ -95,13 +95,13 @@ My long-term research goal is to build automation systems that can adapt reliabl
     </figure>
   </article>
 
-  <article class="publication">
+  <article class="publication publication--compact">
     <h4 class="publication__title">Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</h4>
     <div class="publication__info">
       <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang</i> (* co-first author)</p>
       <p>IEEE/RSJ International Conference on Intelligent Robots and Systems <a href="https://iros2024-abudhabi.org/">IROS 2024</a> at Abu Dhabi UAE, <strong>Oral Presentation</strong>, <a href="https://arxiv.org/abs/2409.06171">Paper</a>, <a href="https://github.com/seanliu7081/LossDistillationWeightedCD_IROS24.git">Code</a>, <a href="https://drive.google.com/file/d/1BoKFYu1weEQomJB_u7ATCbDfiqRkEywd/view?usp=sharing">Presentation</a></p>
     </div>
-    <figure class="publication__media publication__media--compact">
+    <figure class="publication__media">
       <img src="{{ '/images/lossDistill.png' | relative_url }}" alt="Comparison of scaled gradient-weight curves versus Euclidean distance for HyperCD and reference distributions" width="398" height="323" loading="lazy" decoding="async">
     </figure>
   </article>
@@ -153,9 +153,6 @@ Reviewer of: NeurIPS, ICLR, ICML, CoRL
     margin: 0;
     justify-self: end;
   }
-  .publication__media--compact {
-    width: 85%;
-  }
   .publication img {
     display: block;
     width: 100%;
@@ -186,8 +183,10 @@ Reviewer of: NeurIPS, ICLR, ICML, CoRL
       max-width: 36rem;
       justify-self: center;
     }
-    .publication__media--compact {
-      width: 100%;
+  }
+  @media (min-width: 761px) {
+    .publication--compact {
+      grid-template-columns: minmax(0, 1fr) minmax(300px, 33%);
     }
   }
 </style>
