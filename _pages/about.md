@@ -23,7 +23,7 @@ My long-term research goal is to build automation systems that can adapt reliabl
 <div class="selected-publications">
   <h3 class="publication-category">Robot Policy Learning</h3>
 
-  <article class="publication">
+  <article class="publication publication--large-figure">
     <div class="publication__info">
       <h4 class="publication__title">Heading Flow: Guiding Visuomotor Action Generation with Predicted Motion Direction</h4>
     </div>
@@ -34,7 +34,7 @@ My long-term research goal is to build automation systems that can adapt reliabl
     </figure>
   </article>
 
-  <article class="publication">
+  <article class="publication publication--large-figure">
     <div class="publication__info">
       <h4 class="publication__title">Past2Next: Past Action Conditioning Policy with Data-Augmented Tokenization</h4>
     </div>
@@ -125,6 +125,9 @@ Reviewer of: NeurIPS, ICLR, ICML, CoRL
     align-items: center;
     padding: 1.5rem 0;
     border-bottom: 1px solid #e6e6e6;
+  }
+  .publication--large-figure {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 55%);
   }
   .publication__info {
     min-width: 0;
