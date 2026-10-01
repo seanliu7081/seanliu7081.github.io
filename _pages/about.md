@@ -40,6 +40,7 @@ My long-term research goal is to build automation systems that can adapt reliabl
     <div class="publication__info">
       <h4 class="publication__title">Past2Next: Past Action Conditioning Policy with Data-Augmented Tokenization</h4>
       <p><i><strong>Haotian Liu</strong>*, Shoukang Yu*, Haojie Huang, Boce Hu, Dian Wang, Robert Platt</i> (* co-first author)</p>
+      <p>In Submission</p>
     </div>
     <figure class="publication__media">
       <a href="{{ '/images/past2next.png' | relative_url }}" target="_blank" rel="noopener" aria-label="View the Past2Next figure at full size">
