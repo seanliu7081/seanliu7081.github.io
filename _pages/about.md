@@ -21,7 +21,29 @@ My long-term research goal is to build automation systems that can adapt reliabl
 ## Selected Publications
 
 <div class="selected-publications">
-  <h3 class="publication-category">Policy Learning for Robotic Manipulation</h3>
+  <h3 class="publication-category">Robot Policy Learning</h3>
+
+  <article class="publication">
+    <div class="publication__info">
+      <h4 class="publication__title">Heading Flow: Guiding Visuomotor Action Generation with Predicted Motion Direction</h4>
+    </div>
+    <figure class="publication__media">
+      <a href="{{ '/images/heading-flow.png' | relative_url }}" target="_blank" rel="noopener" aria-label="View the Heading Flow figure at full size">
+        <img src="{{ '/images/heading-flow.png' | relative_url }}" alt="Robot observation and predicted motion heading guide flow matching from initial noise to a refined action chunk" width="4104" height="1056" loading="lazy" decoding="async">
+      </a>
+    </figure>
+  </article>
+
+  <article class="publication">
+    <div class="publication__info">
+      <h4 class="publication__title">Past2Next: Past Action Conditioning Policy with Data-Augmented Tokenization</h4>
+    </div>
+    <figure class="publication__media">
+      <a href="{{ '/images/past2next.png' | relative_url }}" target="_blank" rel="noopener" aria-label="View the Past2Next figure at full size">
+        <img src="{{ '/images/past2next.png' | relative_url }}" alt="Past actions and dynamic features narrow a robot policy's search from the full action space to feasible actions" width="1650" height="550" loading="lazy" decoding="async">
+      </a>
+    </figure>
+  </article>
 
   <article class="publication">
     <div class="publication__info">
