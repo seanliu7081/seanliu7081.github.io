@@ -24,8 +24,8 @@ My long-term research goal is to build automation systems that can adapt reliabl
   <h3 class="publication-category">Robot Policy Learning</h3>
 
   <article class="publication">
+    <h4 class="publication__title">Heading Flow: Guiding Visuomotor Action Generation with Predicted Motion Direction</h4>
     <div class="publication__info">
-      <h4 class="publication__title">Heading Flow: Guiding Visuomotor Action Generation with Predicted Motion Direction</h4>
       <p><i><strong>Haotian Liu</strong>, Wei Li, Xin Wen, Yuan Ma, Xin Li, Peijin Jia, Zhen Zhu, Bailin Li, Kun Zhan, Dian Wang</i></p>
       <p>In Submission</p>
     </div>
@@ -37,8 +37,8 @@ My long-term research goal is to build automation systems that can adapt reliabl
   </article>
 
   <article class="publication">
+    <h4 class="publication__title">Past2Next: Past Action Conditioning Policy with Data-Augmented Tokenization</h4>
     <div class="publication__info">
-      <h4 class="publication__title">Past2Next: Past Action Conditioning Policy with Data-Augmented Tokenization</h4>
       <p><i><strong>Haotian Liu</strong>*, Shoukang Yu*, Haojie Huang, Boce Hu, Dian Wang, Robert Platt</i> (* co-first author)</p>
       <p>In Submission</p>
     </div>
@@ -50,8 +50,8 @@ My long-term research goal is to build automation systems that can adapt reliabl
   </article>
 
   <article class="publication">
+    <h4 class="publication__title">Pix2Act: Image-Space Manipulation Policies with Equivariant Augmentation</h4>
     <div class="publication__info">
-      <h4 class="publication__title">Pix2Act: Image-Space Manipulation Policies with Equivariant Augmentation</h4>
       <p><i>Haojie Huang, Linfeng Zhao, <strong>Haotian Liu</strong>, Zhang Ye, Si-Yuan Huang, Mingxi Jia, Boce Hu, Fangzhou Lin, Yu Qi, Dian Wang, Robin Walters*, Robert Platt*</i> (* Equal Advising)</p>
       <p>In Submission, <a href="https://arxiv.org/abs/2607.11167">Paper</a>, <a href="https://haojhuang.github.io/pix2act_page/">Project Page</a></p>
     </div>
@@ -61,8 +61,8 @@ My long-term research goal is to build automation systems that can adapt reliabl
   </article>
 
   <!-- <article class="publication">
+    <h4 class="publication__title">MATCH POLICY: A Simple Pipeline from Point Cloud Registration to Manipulation Policies</h4>
     <div class="publication__info">
-      <h4 class="publication__title">MATCH POLICY: A Simple Pipeline from Point Cloud Registration to Manipulation Policies</h4>
       <p><i>Haojie Huang, <strong>Haotian Liu</strong>, Dian Wang, Robin Walters*, and Robert Platt*</i> (* Equal Advising)</p>
       <p>IEEE International Conference on Robotics and Automation <a href="https://2025.ieee-icra.org/">ICRA 2025</a> at Atlanta USA, <a href="https://www.arxiv.org/abs/2409.15517">Paper</a>, <a href="https://haojhuang.github.io/match_page/">Project Page</a></p>
     </div>
@@ -72,8 +72,8 @@ My long-term research goal is to build automation systems that can adapt reliabl
   </article>
 
   <article class="publication">
+    <h4 class="publication__title">IMAGINATION POLICY: Using Generative Point Cloud Models for Learning Manipulation Policies</h4>
     <div class="publication__info">
-      <h4 class="publication__title">IMAGINATION POLICY: Using Generative Point Cloud Models for Learning Manipulation Policies</h4>
       <p><i>Haojie Huang, Karl Schmeckpeper*, Dian Wang*, Ondrej Biza*, Yaoyao Qian**, <strong>Haotian Liu</strong>**, Mingxi Jia**, Robert Platt, and Robin Walters</i> (*, ** Equal Contribution)</p>
       <p>Conference on Robot Learning <a href="https://www.corl.org/">CoRL 2024</a> at Munich, Germany, <a href="https://arxiv.org/abs/2406.11740">Paper</a>, <a href="https://haojhuang.github.io/imagine_page/">Project Page</a></p>
     </div>
@@ -85,8 +85,8 @@ My long-term research goal is to build automation systems that can adapt reliabl
   <h3 class="publication-category">Deep Learning Optimization for 3D Vision</h3>
 
   <article class="publication">
+    <h4 class="publication__title">GPS: A Probabilistic Distributional Similarity with Gumbel Priors for Set-to-Set Matching</h4>
     <div class="publication__info">
-      <h4 class="publication__title">GPS: A Probabilistic Distributional Similarity with Gumbel Priors for Set-to-Set Matching</h4>
       <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Ziming Zhang*, Jose Morales, Haichong Zhang, Kazunori Yamada, Vijaya B Kolachalama, Venkatesh Saligrama</i> (* co-first author)</p>
       <p>International Conference on Learning Representations <a href="https://iclr.cc/">ICLR 2025</a> at Singapore, <a href="https://openreview.net/pdf?id=U0SijGsCHJ">Paper</a>, <a href="https://github.com/Zhang-VISLab/ICLR2025-GPS.git">Code</a></p>
     </div>
@@ -96,8 +96,8 @@ My long-term research goal is to build automation systems that can adapt reliabl
   </article>
 
   <article class="publication">
+    <h4 class="publication__title">Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</h4>
     <div class="publication__info">
-      <h4 class="publication__title">Loss Distillation via Gradient Matching for Point Cloud Completion with Weighted Chamfer Distance</h4>
       <p><i><strong>Haotian Liu</strong>*, Fangzhou Lin*, Haoying Zhou*, Songlin Hou*, Kazunori Yamada, Gregory S. Fischer, Yanhua Li, Haichong K. Zhang, and Ziming Zhang</i> (* co-first author)</p>
       <p>IEEE/RSJ International Conference on Intelligent Robots and Systems <a href="https://iros2024-abudhabi.org/">IROS 2024</a> at Abu Dhabi UAE, <strong>Oral Presentation</strong>, <a href="https://arxiv.org/abs/2409.06171">Paper</a>, <a href="https://github.com/seanliu7081/LossDistillationWeightedCD_IROS24.git">Code</a>, <a href="https://drive.google.com/file/d/1BoKFYu1weEQomJB_u7ATCbDfiqRkEywd/view?usp=sharing">Presentation</a></p>
     </div>
@@ -125,23 +125,30 @@ Reviewer of: NeurIPS, ICLR, ICML, CoRL
   .publication {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 55%);
-    gap: clamp(1.25rem, 3vw, 2.25rem);
+    grid-template-areas: "title title" "info media";
+    column-gap: clamp(1.25rem, 3vw, 2.25rem);
+    row-gap: 0.75rem;
     align-items: center;
     padding: 1.5rem 0;
     border-bottom: 1px solid #e6e6e6;
   }
   .publication__info {
+    grid-area: info;
     min-width: 0;
+    align-self: start;
   }
   .publication p {
     margin: 0.45rem 0;
   }
   .publication__title {
-    margin: 0 0 0.45rem;
+    grid-area: title;
+    max-width: 620px;
+    margin: 0;
     font-size: 1.03em;
     line-height: 1.4;
   }
   .publication__media {
+    grid-area: media;
     width: 100%;
     margin: 0;
     justify-self: end;
@@ -169,6 +176,7 @@ Reviewer of: NeurIPS, ICLR, ICML, CoRL
   @media (max-width: 760px) {
     .publication {
       grid-template-columns: 1fr;
+      grid-template-areas: "title" "info" "media";
       gap: 1rem;
     }
     .publication__media {
