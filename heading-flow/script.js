@@ -54,3 +54,33 @@ copyButton.addEventListener('click', async () => {
     document.getElementById('copy-status').textContent = 'Clipboard is unavailable. Please select and copy the citation below.';
   }
 });
+
+// Select a complete successful rollout without changing its playback speed.
+const fruitVideo = document.getElementById('fruit-video');
+const rolloutChoices = [...document.querySelectorAll('.rollout-choice')];
+if (fruitVideo) {
+  const error = document.getElementById('fruit-video-error');
+  for (const choice of rolloutChoices) {
+    choice.addEventListener('click', () => {
+      fruitVideo.pause();
+      for (const item of rolloutChoices) item.setAttribute('aria-pressed', String(item === choice));
+      fruitVideo.src = choice.dataset.video;
+      fruitVideo.poster = choice.dataset.poster;
+      fruitVideo.setAttribute('aria-label', `SMQ-DiT Prepare Fruit ${choice.dataset.label.toLowerCase()}`);
+      document.getElementById('fruit-video-caption').textContent = choice.dataset.label;
+      error.hidden = true;
+      fruitVideo.load();
+      fruitVideo.play().catch(() => {}); // Native controls remain available if playback needs another gesture.
+    });
+  }
+  fruitVideo.addEventListener('error', () => {
+    error.textContent = 'This video could not load. Please try another rollout or reload the page.';
+    error.hidden = false;
+  });
+}
+const experimentVideos = [...document.querySelectorAll('.experiment-video')];
+for (const video of experimentVideos) {
+  video.addEventListener('play', () => {
+    for (const other of experimentVideos) if (other !== video) other.pause();
+  });
+}
