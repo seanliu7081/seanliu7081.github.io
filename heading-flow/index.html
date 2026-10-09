@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heading Flow — Guiding Visuomotor Action Generation</title>
+  <meta name="description" content="Heading Flow predicts motion direction to guide flow-based robot action generation. Explore the method, Spatial Motion Query, benchmark results, and real-robot experiments.">
+  <meta name="theme-color" content="#1959bd">
+  <link rel="canonical" href="https://seanliu7081.github.io/heading-flow/">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231959bd'/%3E%3Cpath d='M7 23L23 7M13 7h10v10' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#overview">Skip to content</a>
+<header class="site-header"><div class="nav-wrap"><a class="wordmark" href="#top">Heading <span>Flow</span><i></i></a><nav aria-label="Main navigation"><a href="#overview">Overview</a><a href="#method">Method</a><a href="#experiments">Results</a><a href="#real-robot">Real robot</a></nav></div></header>
+<main id="top">
+<section class="hero wrap">
+  <p class="eyebrow">VISUOMOTOR POLICY LEARNING</p>
+  <h1>Heading <span>Flow</span></h1>
+  <p class="paper-title">Guiding Visuomotor Action Generation<br class="desktop-break"> with Predicted Motion Direction</p>
+  <div class="authors"><span><a href="https://seanliu7081.github.io/">Haotian Liu</a><sup>1,2</sup></span><span>Wei Li<sup>2</sup></span><span>Xin Wen<sup>2</sup></span><span>Yuan Ma<sup>2</sup></span><span>Xin Li<sup>2</sup></span><span>Peijin Jia<sup>2</sup></span><span>Zhen Zhu<sup>2</sup></span><span>Bailin Li<sup>2</sup></span><span>Kun Zhan<sup>2</sup></span><span>Dian Wang<sup>3,*</sup></span></div>
+  <p class="affiliations"><span><sup>1</sup> Northeastern University</span><span><sup>2</sup> Li Auto</span><span><sup>3</sup> University of Macau</span></p>
+  <p class="corresponding">* Corresponding author</p>
+  <div class="hero-actions"><a class="button primary" href="#method">Explore the method</a><a class="button" href="#real-robot">Real-robot experiments</a></div>
+  <figure class="hero-figure"><a class="figure-link" href="assets/teaser.webp" aria-label="Enlarge the Heading Flow overview"><img src="assets/teaser.webp" width="2400" height="618" alt="An observed robot scene informs a predicted XY heading. This heading shapes a directional Gaussian prior that flow matching transforms into an action chunk." fetchpriority="high"></a><figcaption>Predict a direction. Shape the source. Generate the action.</figcaption></figure>
+</section>
+<section id="overview" class="section wrap intro"><div><p class="eyebrow">01 / THE IDEA</p><h2>Coarse intent.<br> Fine-grained action.</h2></div><div class="prose"><p class="lead">A robot often knows <em>which way</em> to move before it knows every detail of the motion.</p><p>Heading Flow makes this motion intent explicit. From visual observations, it predicts a planar heading supervised directly by demonstration actions. The same heading both conditions the action generator and shapes its initial Gaussian distribution.</p><p>This directional bias preserves the source distribution’s full support, leaving room for corrective motions. Spatial Motion Query (SMQ) extends the idea to multiple consecutive segments, capturing direction changes within an action chunk.</p></div></section>
+<div class="metrics wrap" aria-label="Selected experimental results">
+  <div><strong>88.6<span>%</span></strong><p>LIBERO-10 success rate</p><small>SMQ-DiT · 500 evaluation episodes</small></div>
+  <div><strong>+36.7<span> pp</span></strong><p>Under camera perturbations</p><small>Heading Flow vs. StarVLA (GR00T)</small></div>
+  <div><strong>75<span>%</span></strong><p>Pen to Drawer success rate</p><small>SMQ-DiT · 15 of 20 real-robot trials</small></div>
+</div>
+<section id="method" class="section wrap">
+  <div class="section-heading"><div><p class="eyebrow">02 / METHOD</p><h2>Give generation a heading.</h2></div><p>A shared geometric cue connects what the robot sees with how action generation begins.</p></div>
+  <div class="method-steps">
+    <article><span class="step-num">01</span><h3>Predict motion intent</h3><p>A lightweight predictor estimates a planar direction and its validity from observations. Supervision comes from the net XY translation in demonstration actions.</p></article>
+    <article><span class="step-num">02</span><h3>Shape the starting point</h3><p>Heading Gaussian shifts the source mean and stretches its covariance along the predicted direction. Nonzero variance across directions preserves corrective alternatives.</p></article>
+    <article><span class="step-num">03</span><h3>Generate the details</h3><p>The same heading conditions the flow model. Visual observations guide the complete action chunk, including vertical movement, orientation, and gripper commands.</p></article>
+  </div>
+  <div class="smq-heading"><span class="tag">SPATIAL MOTION QUERY</span><h3>One action chunk. More than one direction.</h3><p>A single heading can hide turns and reversals. SMQ uses learned queries to read spatial observation features and predict a heading for each consecutive segment. In our setup, four queries guide four segments of a 16-step action chunk.</p></div>
+  <figure class="research-figure"><a class="figure-link" href="assets/smq.webp" aria-label="Enlarge the Spatial Motion Query architecture"><img src="assets/smq.webp" width="2400" height="819" alt="Spatial Motion Query architecture: learned segment queries attend to spatial observation tokens, predict local headings and validity, and guide both a segmented Gaussian source and the DiT velocity model." loading="lazy"></a><figcaption>Segment-specific predictions guide both the source distribution and the DiT action generator.</figcaption></figure>
+  <details class="source-details"><summary>Why preserve variation around the predicted direction?</summary><div class="detail-content"><p>Heading is a partial description of motion. Heading Zero enforces exact alignment of the sampled chunk’s net XY direction. Heading Gaussian instead biases the source while retaining lateral and backward alternatives. When a heading is predicted to be invalid, the policy falls back to the base Gaussian.</p><figure><a class="figure-link" href="assets/sources.webp" aria-label="Enlarge the directional source comparison"><img src="assets/sources.webp" width="2400" height="2205" alt="Comparison of raw XY source samples and their chunk sums over 128 paired noise draws for Heading Zero, Heading Gaussian, and SMQ-DiT." loading="lazy"></a><figcaption>Raw XY samples (top) and chunk sums (bottom), across 128 paired noise draws. Green marks the ground-truth direction; dashed magenta marks the predicted global heading.</figcaption></figure></div></details>
+</section>
+<section id="experiments" class="section wrap">
+  <div class="section-heading"><div><p class="eyebrow">03 / EXPERIMENTS</p><h2>From benchmarks<br> to robust action.</h2></div><p>Heading guidance is evaluated with U-Net and DiT policies, and integrated into VLA action experts.</p></div>
+  <div class="tabs" role="tablist" aria-label="Benchmark results"><button id="tab-libero" type="button" role="tab" aria-selected="true" aria-controls="panel-libero" tabindex="0">LIBERO-10</button><button id="tab-plus" type="button" role="tab" aria-selected="false" aria-controls="panel-plus" tabindex="-1">LIBERO-Plus</button></div>
+  <div id="panel-libero" class="result-panel" role="tabpanel" aria-labelledby="tab-libero" tabindex="0">
+    <div class="result-intro"><h3>Local headings improve chunk-level control.</h3><p>SMQ-DiT reaches 88.6% success, an 11.0 percentage-point gain over the DiT flow-matching baseline.</p></div>
+    <div class="bar-chart" role="img" aria-label="LIBERO-10 success rates: Diffusion Policy 36.6%, A2A 74.2%, Flow matching U-Net 73.6%, Heading Zero U-Net 75.4%, Heading Gaussian U-Net 76.8%, Flow matching DiT 77.6%, Heading Zero DiT 79.0%, Heading Gaussian DiT 81.8%, SMQ-DiT 88.6%.">
+      <div class="chart-unit">Success rate (%) · higher is better</div>
+      <div class="bar-row"><span>Diffusion Policy</span><div class="bar-track"><i style="--value:36.6%"></i></div><b>36.6</b></div>
+      <div class="bar-row"><span>A2A</span><div class="bar-track"><i style="--value:74.2%"></i></div><b>74.2</b></div>
+      <div class="bar-row group-start"><span>Flow matching <small>U-Net</small></span><div class="bar-track"><i style="--value:73.6%"></i></div><b>73.6</b></div>
+      <div class="bar-row"><span>Heading Zero <small>U-Net</small></span><div class="bar-track"><i class="mid" style="--value:75.4%"></i></div><b>75.4</b></div>
+      <div class="bar-row"><span>Heading Gaussian <small>U-Net</small></span><div class="bar-track"><i class="ours" style="--value:76.8%"></i></div><b>76.8</b></div>
+      <div class="bar-row group-start"><span>Flow matching <small>DiT</small></span><div class="bar-track"><i style="--value:77.6%"></i></div><b>77.6</b></div>
+      <div class="bar-row"><span>Heading Zero <small>DiT</small></span><div class="bar-track"><i class="mid" style="--value:79%"></i></div><b>79.0</b></div>
+      <div class="bar-row"><span>Heading Gaussian <small>DiT</small></span><div class="bar-track"><i class="ours" style="--value:81.8%"></i></div><b>81.8</b></div>
+      <div class="bar-row highlight"><span>SMQ-DiT</span><div class="bar-track"><i class="smq-bar" style="--value:88.6%"></i></div><b>88.6</b></div>
+      <div class="chart-axis"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
+    </div>
+    <p class="result-note">Ten tasks, 50 initial states per task. Training uses 450 demonstrations and validation uses 50. Values report the best evaluated success rate using one checkpoint across all ten tasks.</p>
+  </div>
+  <div id="panel-plus" class="result-panel" role="tabpanel" aria-labelledby="tab-plus" tabindex="0">
+    <div class="result-intro"><h3>Direction guidance under distribution shifts.</h3><p>With the GR00T-style expert, Heading Flow improves camera-perturbation success by 36.7 percentage points and noise-perturbation success by 25.3 points. Gains vary by perturbation suite.</p></div>
+    <div class="table-scroll" role="region" aria-label="LIBERO-Plus success rates" tabindex="0"><table class="results-table"><caption>LIBERO-Plus success rates (%) · Qwen3-VL backbone</caption><thead><tr><th scope="col">Action expert / method</th><th scope="col">Camera</th><th scope="col">Robot</th><th scope="col">Language</th><th scope="col">Light</th><th scope="col">Background</th><th scope="col">Noise</th><th scope="col">Layout</th><th scope="col">Total</th></tr></thead><tbody>
+    <tr><th scope="row">StarVLA (PI)</th><td>64.3</td><td><strong>57.2</strong></td><td>82.8</td><td>94.2</td><td>94.0</td><td>79.6</td><td>78.2</td><td>77.2</td></tr>
+    <tr><th scope="row">+ Heading Flow</th><td>72.4</td><td>53.2</td><td>78.4</td><td>94.0</td><td><strong>95.8</strong></td><td>83.4</td><td>82.6</td><td>78.6</td></tr>
+    <tr class="best-row"><th scope="row">+ SMQ</th><td><strong>74.6</strong></td><td>51.2</td><td><strong>86.9</strong></td><td><strong>96.7</strong></td><td>95.6</td><td><strong>90.2</strong></td><td><strong>88.2</strong></td><td><strong>82.2</strong></td></tr>
+    <tr class="table-group"><th scope="row">StarVLA (GR00T)</th><td>32.9</td><td><strong>50.8</strong></td><td><strong>88.1</strong></td><td><strong>96.2</strong></td><td>85.7</td><td>62.0</td><td>73.6</td><td>67.8</td></tr>
+    <tr><th scope="row">+ Heading Flow</th><td>69.6</td><td>46.2</td><td>86.3</td><td>95.8</td><td>95.5</td><td>87.3</td><td>82.6</td><td>79.1</td></tr>
+    <tr class="best-row"><th scope="row">+ SMQ</th><td><strong>70.2</strong></td><td>49.6</td><td>86.4</td><td>94.8</td><td><strong>96.6</strong></td><td><strong>88.4</strong></td><td><strong>86.5</strong></td><td><strong>80.5</strong></td></tr>
+    </tbody></table></div><p class="result-note">Bold values indicate the best result within each action-expert group. Total is the sample-weighted mean, following the StarVLA evaluation calculation. On small screens, scroll the table horizontally to view all suites.</p>
+  </div>
+</section>
+<section id="real-robot" class="section wrap">
+  <div class="section-heading"><div><p class="eyebrow">04 / REAL-ROBOT EXPERIMENTS</p><h2>Multi-step manipulation.<br> In the physical world.</h2></div><p>A single-arm PiperX robot, wrist and side-view cameras, and delta action control at 15 Hz.</p></div>
+  <div class="robot-grid">
+    <article class="robot-task"><figure><a class="figure-link" href="assets/fruit.webp" aria-label="Enlarge the Prepare Fruit experiment"><img src="assets/fruit.webp" width="2400" height="1918" alt="Four real-robot frames: initial fruit arrangement, picking up the banana, picking up the strawberry, and both fruits placed on the plate." loading="lazy"></a></figure><div class="task-title"><h3>Prepare Fruit</h3><span>50 demonstrations</span></div><p>Place the banana on the right side of the plate, then the strawberry on the left. Demonstrations vary the positions of the fruit and plate.</p><ol class="sequence"><li>Observe</li><li>Pick banana</li><li>Pick strawberry</li><li>Place both</li></ol></article>
+    <article class="robot-task"><figure><a class="figure-link" href="assets/drawer.webp" aria-label="Enlarge the Pen to Drawer experiment"><img src="assets/drawer.webp" width="2400" height="1918" alt="Four real-robot frames: initial drawer arrangement, opening the drawer, positioning the pen above the open drawer, and the final arrangement." loading="lazy"></a></figure><div class="task-title"><h3>Pen to Drawer</h3><span>70 demonstrations</span></div><p>Open the drawer, pick up the pen, place it inside, then push the drawer closed. Demonstrations include positional perturbations of the pen holder.</p><ol class="sequence"><li>Open drawer</li><li>Pick pen</li><li>Place inside</li><li>Close drawer</li></ol></article>
+  </div>
+  <div class="robot-results"><div><h3>Complete-task success</h3><p>A trial succeeds only when the full sequence is completed in the specified order. Each policy is evaluated over 20 trials per task.</p></div><div class="table-scroll"><table class="results-table robot-table"><caption class="sr-only">Real-robot success rates and successful trial counts</caption><thead><tr><th scope="col">Policy</th><th scope="col">Prepare Fruit</th><th scope="col">Pen to Drawer</th></tr></thead><tbody><tr><th scope="row">Diffusion Policy</th><td>40% <small>8/20</small></td><td>50% <small>10/20</small></td></tr><tr><th scope="row">Heading Flow</th><td>60% <small>12/20</small></td><td>70% <small>14/20</small></td></tr><tr class="best-row"><th scope="row">SMQ-DiT</th><td><strong>70%</strong> <small>14/20</small></td><td><strong>75%</strong> <small>15/20</small></td></tr></tbody></table></div></div>
+  <div class="execution"><div><span class="tag">ON-ROBOT EXECUTION</span><h3>Smooth transitions between action chunks.</h3><p>The policy predicts a 16-step chunk and uses an eight-step execution horizon. At each transition, outgoing and incoming commands are blended over three control steps to reduce abrupt changes.</p></div><div class="execution-stats"><div><strong>16</strong><span>steps predicted</span></div><div><strong>8</strong><span>steps executed</span></div><div><strong>3</strong><span>steps blended · 0.2 s</span></div></div></div>
+</section>
+<section id="citation" class="section wrap citation-section"><div><p class="eyebrow">05 / CITATION</p><h2>Heading Flow</h2><p>Bibliographic information for this manuscript.</p></div><div class="citation-box"><button class="copy-button button" type="button">Copy BibTeX</button><pre><code id="bibtex">@unpublished{liu2026headingflow,
+  title = {Heading Flow: Guiding Visuomotor Action
+           Generation with Predicted Motion Direction},
+  author = {Liu, Haotian and Li, Wei and Wen, Xin and
+            Ma, Yuan and Li, Xin and Jia, Peijin and
+            Zhu, Zhen and Li, Bailin and Zhan, Kun
+            and Wang, Dian},
+  year = {2026},
+  note = {Manuscript},
+  url = {https://seanliu7081.github.io/heading-flow/}
+}</code></pre><span class="sr-only" role="status" id="copy-status"></span></div></section>
+<dialog class="lightbox" aria-labelledby="lightbox-caption"><button class="lightbox-close button" type="button" aria-label="Close enlarged figure">Close</button><figure><img id="lightbox-image" src="assets/teaser.webp" alt=""><figcaption id="lightbox-caption"></figcaption></figure></dialog>
+
+</main>
+<footer class="wrap footer"><span>Heading Flow</span><a href="https://seanliu7081.github.io/">Haotian Liu · Research homepage</a></footer>
+<script src="script.js" defer></script>
+</body>
+</html>

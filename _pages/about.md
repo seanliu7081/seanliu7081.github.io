@@ -27,7 +27,7 @@ My long-term research goal is to build automation systems that can adapt reliabl
     <h4 class="publication__title">Heading Flow: Guiding Visuomotor Action Generation with Predicted Motion Direction</h4>
     <div class="publication__info">
       <p><i><strong>Haotian Liu</strong>, Wei Li, Xin Wen, Yuan Ma, Xin Li, Peijin Jia, Zhen Zhu, Bailin Li, Kun Zhan, Dian Wang</i></p>
-      <p>In Submission</p>
+      <p>In Submission, <a href="{{ '/heading-flow/' | relative_url }}">Project Page</a></p>
     </div>
     <figure class="publication__media">
       <a href="{{ '/images/heading-flow.png' | relative_url }}" target="_blank" rel="noopener" aria-label="View the Heading Flow figure at full size">
